@@ -1,0 +1,44 @@
+:root {
+  --fondo: #6d8ea0;
+  --recuadro: #afa98d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--fondo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor{
+    width: 60%;
+    height: 50%;
+    border: 2px solid black;
+    background-color: var(--recuadro);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+textarea{
+    font-size: 18px;
+    font-style: italic;
+}
+.texto{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textoResultado{
+    font-size: 24px;
+    font-weight: bold;
+}

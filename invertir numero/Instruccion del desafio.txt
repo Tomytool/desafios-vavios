@@ -1,0 +1,28 @@
+Invierta el código del problema numérico : FLOW007
+Agregar problema a la lista de tareas pendientes
+Enviar
+
+ 
+Dado un entero N , escriba un programa para revertirlo.
+
+Aporte
+La primera línea contiene un número entero T , número total de casos de prueba. A continuación, siga T líneas, cada línea contiene un número entero N .
+
+Producción
+Para cada caso de prueba, muestre el reverso del número dado N , en una nueva línea.
+
+Restricciones
+1 ≤ T ≤ 1000
+1 ≤ N ≤ 1000000
+Ejemplo
+Aporte
+4
+12345
+31203
+2123
+2300
+Producción
+54321
+30213
+3212
+32
