@@ -28,18 +28,4 @@ body p {
 .cambio {
   transform: translateY(0px);
   background-color: rgb(255, 217, 0);
-  /* animation: movimientoCaja; */
-  /* animation-duration: 1s; */
-  /* animation-timing-function: ease-in-out; */
-  /* animation-fill-mode: forwards; */
-}
-@keyframes movimientoCaja {
-  0% {
-    transform: translateX(800px);
-    background-color: var(--color);
-  }
-  100% {
-    transform: translateY(0px);
-    background-color: rgb(255, 217, 0);
-  }
 }
