@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(109, 158, 158);
+  width: 100vw;
+  height: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body p {
+  margin: 50px;
+}
+.caja {
+  width: 250px;
+  height: 300px;
+  background-color: var(--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  margin-top: 20px;
+  transform: translateX(800px);
+  transition: 1s all ease-in;
+}
+.caja p {
+  text-transform: uppercase;
+}
+
+.cambio {
+  transform: translateY(0px);
+  background-color: rgb(255, 217, 0);
+  /* animation: movimientoCaja; */
+  /* animation-duration: 1s; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-fill-mode: forwards; */
+}
+@keyframes movimientoCaja {
+  0% {
+    transform: translateX(800px);
+    background-color: var(--color);
+  }
+  100% {
+    transform: translateY(0px);
+    background-color: rgb(255, 217, 0);
+  }
+}
